@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>To: 浅浅</title>
+    <title>To: 张斯若</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -123,18 +123,18 @@
 <body>
 
     <audio id="bgm" loop>
-        <!-- 网易云 Love Story (Taylor’s Version) -->
+        <!-- 网易云 Love Story (Taylor's Version) -->
         <source src="https://music.163.com/song/media/outer/url?id=529668463.mp3" type="audio/mpeg">
     </audio>
     <div id="music-btn" onclick="toggleMusic()">🎵</div>
 
     <div id="scene-login">
         <div class="login-card">
-            <div class="avatar">🐱</div>
-            <h2>浅浅</h2>
-            <input type="password" id="passcode" placeholder="请输入个人密码">
+            <div class="avatar">💖</div>
+            <h2>张斯若</h2>
+            <input type="password" id="passcode" placeholder="下一次见面的时候">
             <div class="btns">
-                <button class="btn-cancel" onclick="alert('没有取消选项，必须上岸！')">取消</button>
+                <button class="btn-cancel" onclick="alert('没有取消选项，必须开心！')">取消</button>
                 <button class="btn-ok" onclick="checkLogin()">确定</button>
             </div>
         </div>
@@ -148,55 +148,55 @@
 
     <script>
         const CONFIG = {
-            password: "0913",
+            password: "1221",
             bubbleDelay: 400,
             sceneWait: 3000
         };
 
         const MESSAGES = [
-            // --- Part 1: 十二月 & 好运 & 勇敢自信 ---
-            "浅浅，十二月的开始，勇敢向前！🔥",
-            "新的一月，新挑战，迎接更好的自己💪",
-            "十二月好运常伴你左右🍀",
-            "保持自信，你比想象中更强大✨",
-            "寒冬会过去，春天一定如约而至🌸",
-            "每一步都算数，坚持就是胜利🏆",
-            "不惧困难，浅浅无所畏惧🚀",
-            "十二月的每一天都在积蓄力量⚡",
-            "勇气和信念是你最好的护身符🛡️",
-            "带着目标，带着坚定去迎接每个早晨🌅",
-            "用行动证明自己的实力📚",
-            "好运与努力一定会相遇💖",
-            "浅浅，你的努力正在被看见👀",
-            "所有挑战都是通向成功的阶梯🪜",
-            "心向光明，不惧阴霾☀️",
-            "十二月要更加专注与坚定🎯",
-            "拼到最后一刻，才是赢家💥",
-            "不怕路远，只怕心不够热🔥",
-            "抓住每一次机会，做最好的自己🌟",
-            "你的故事，会在这个十二月更加精彩📖",
+            // --- Part 1: 闺蜜思念 & 可爱祝福 & 十二月好运 ---
+            "亲爱的斯若，十二月要开开心心哦～💖",
+            "想你了！我们下次见面一定要狠狠抱抱！🤗",
+            "十二月好运已经开始营业啦～🍀",
+            "你是我最最可爱的闺蜜，永远爱你！💕",
+            "寒冷的十二月，有我的思念温暖你～🔥",
+            "你是世界上最美好的女孩子，要一直开心！✨",
+            "十二月每一天都要笑得像花儿一样～🌸",
+            "想你想到冒泡～咕噜咕噜都是对你的思念💭",
+            "我的宝，你值得世界上所有的美好！🎁",
+            "十二月对你特别好，因为你是特别好的你～🌟",
+            "隔着屏幕都想给你一个大大的拥抱！🫂",
+            "我们永远是最好的闺蜜姐妹花！🌺",
+            "十二月的好运气全都送给你～🎉",
+            "你一笑，我的世界都亮了！💡",
+            "想你的时候就看看我们的合照～📸",
+            "你是我最珍贵的宝藏女孩！💎",
+            "十二月要加倍快乐，加倍可爱！🐰",
+            "不管多远，我的心都和你在一起～💞",
+            "你总是能带给我满满的正能量！⚡",
+            "十二月对你温柔以待，因为你就是温柔本身～🌙",
 
-            // --- Part 2: 考研 & 中国人民大学 & 上岸 ---
-            "目标：中国人民大学！🏛️",
-            "准研究生浅浅，你好呀📜",
-            "一研为定，定为研一！✏️",
-            "关关难过关关过，前路漫漫亦灿灿🌈",
-            "熬过的每一个夜晚，都会成为光✨",
-            "明年九月，中国人民大学的校园等你走进🏫",
-            "笔尖生花，金榜题名🏆",
-            "乾坤未定，浅浅就是黑马🐎",
-            "星光不问赶路人，时光不负奋斗者🌟",
-            "合上笔盖的那一刻，要有收剑的骄傲⚔️",
-            "人大在等你，未来也在等你💼",
-            "考研必胜！岸上见！✌️",
-            "前途似海，来日方长🌊",
-            "所有努力都不会被辜负💎",
-            "最后冲刺，坚持就是胜利🏃‍♀️",
-            "浅浅，你一定能上岸！💪",
-            "站得更高，看得更远🗻",
-            "愿结果配得上你所有的辛苦与坚持🌠",
-            "成功上岸，前程似锦🎉",
-            "我们中国人民大学见！🎓"
+            // --- Part 2: 考研祝福 & 顺利成功 & 美好未来 ---
+            "斯若考研一定顺利通过！🎯",
+            "你的努力我都看在眼里，一定会成功！💪",
+            "考研那天，你就是考场最亮的星！🌟",
+            "所有的题目都会对你很友好～📚",
+            "笔尖有光，下笔如有神助！✨",
+            "考研对你来说小菜一碟啦～🍀",
+            "你的实力配得上最好的结果！🏆",
+            "放松心态，你准备得非常充分了！🎈",
+            "考研顺利，未来可期！🌈",
+            "你的名字一定会出现在录取名单上！📜",
+            "考场上的你会超常发挥！🚀",
+            "所有辛苦都会换来满意的答卷！💯",
+            "你是学霸本霸，考研轻松拿下！👑",
+            "考研成功，我们好好庆祝！🎊",
+            "你的梦想一定会实现，我相信你！💫",
+            "知识的海洋里，你是最棒的游泳选手！🏊‍♀️",
+            "考研顺利，前程似锦！🌅",
+            "你的坚持终将获得最美的回报！🌺",
+            "考试那天，好运与你同行！🍀",
+            "等你考研成功的好消息，加油！🎉"
         ];
 
         function checkLogin() {
@@ -212,7 +212,7 @@
                     startBubbles();
                 }, 800);
             } else {
-                alert("密码不对哦~ 是生日吗？");
+                alert("密码不对哦~ 想想我们下一次见面的时候？");
                 document.getElementById('passcode').value = "";
             }
         }
@@ -274,8 +274,8 @@
             canvas.width = window.innerWidth;
             canvas.height = window.innerHeight;
             let particles = [];
-            const fontSize1 = Math.min(window.innerWidth / 4, 100);
-            const fontSize2 = Math.min(window.innerWidth / 10, 50);
+            const fontSize1 = Math.min(window.innerWidth / 5, 80);
+            const fontSize2 = Math.min(window.innerWidth / 8, 40);
 
             class Particle {
                 constructor(targetX, targetY) {
@@ -304,9 +304,9 @@
                 tCtx.textAlign = 'center'; tCtx.textBaseline = 'middle';
                 tCtx.fillStyle = 'white';
                 tCtx.font = `bold ${fontSize1}px "Microsoft YaHei"`;
-                tCtx.fillText('浅浅', canvas.width/2, canvas.height/2 - 40);
+                tCtx.fillText('张斯若', canvas.width/2, canvas.height/2 - 30);
                 tCtx.font = `bold ${fontSize2}px Arial`;
-                tCtx.fillText('RUC 上岸成功', canvas.width/2, canvas.height/2 + 60);
+                tCtx.fillText('一定要开心哦', canvas.width/2, canvas.height/2 + 40);
                 const idata = tCtx.getImageData(0, 0, canvas.width, canvas.height);
                 const data = idata.data; const step = 3;
                 for (let y = 0; y < canvas.height; y += step) {
